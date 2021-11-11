@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  font-family: "Asap", sans-serif;
+  font-weight: 600;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1em;
+}
+
+.nav-child {
+  margin-left: 25px;
+}
+
+main {
+  text-align: center;
+}
+
+.pokemon-container {
+  text-align: center;
+  border: 0.25px solid #999;
+  border-radius: 15px;
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.pokemon-img {
+  margin: 0 auto;
+  /* background-color: lightcoral; */
+  image-rendering: pixelated;
+}
+.pokemon-img img {
+  width: 50%;
+}
+
+.pokemon-info {
+  text-align: left;
+  color: #666;
+  border-bottom: 1px solid #ccc;
+}
+
+.pokemon-type {
+  border: 1px solid black;
+  padding: 1px;
+  border-radius: 2px;
+}
